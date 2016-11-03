@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.telaInicial.borderpane.BorderPaneInicioControlador">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Arquivo">
+            <items>
+                  <MenuItem mnemonicParsing="false" text="Adicionar valores" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Criar">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Criar grafico de linha" />
+                  <MenuItem mnemonicParsing="false" text="Criar grafico de coluna" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Sobre">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Sobre o software" />
+                  <MenuItem mnemonicParsing="false" onAction="#sair" text="Sair" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>
